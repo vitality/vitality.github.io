@@ -7,7 +7,7 @@ const msalConfig = {
     auth: {
         clientId: "0b9e4b11-3f28-4fc1-b1a9-258d6f2e2e3e",
         authority: "https://login.microsoftonline.com/common",
-        redirectUri: "http://localhost:3000",
+        redirectUri: "https://vitality.github.io/msal-graph/",
     },
     cache: {
         cacheLocation: "sessionStorage", // This configures where your cache will be stored
